@@ -21,3 +21,5 @@ mv bazel-${BAZEL_VERSION}-installer-darwin-x86_64.sh bazel-installer.sh
 chmod +x bazel-installer.sh
 sudo ./bazel-installer.sh
 rm bazel-installer.sh
+
+rm bazel-${BAZEL_VERSION}-installer-darwin-x86_64.sh.sha256
